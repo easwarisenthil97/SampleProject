@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-10T15:00:12 IST" name="Default suite" finished-at="2023-12-10T15:00:33 IST" duration-ms="21652">
+    <groups>
+    </groups>
+    <test started-at="2023-12-10T15:00:12 IST" name="Default test" finished-at="2023-12-10T15:00:33 IST" duration-ms="21652">
+      <class name="com.dataprovider.excel.ReadExcelDataProvider">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dataprovider.excel.ReadExcelDataProvider@48aca48b]" started-at="2023-12-10T15:00:13 IST" name="setUp" finished-at="2023-12-10T15:00:23 IST" duration-ms="9191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.excel.ReadExcelDataProvider@48aca48b]" started-at="2023-12-10T15:00:23 IST" name="logintest" data-provider="excelData" finished-at="2023-12-10T15:00:23 IST" duration-ms="900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Easwari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Easwari123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="burnDown()[pri:0, instance:com.dataprovider.excel.ReadExcelDataProvider@48aca48b]" started-at="2023-12-10T15:00:23 IST" name="burnDown" finished-at="2023-12-10T15:00:24 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- burnDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dataprovider.excel.ReadExcelDataProvider@48aca48b]" started-at="2023-12-10T15:00:24 IST" name="setUp" finished-at="2023-12-10T15:00:32 IST" duration-ms="8263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:com.dataprovider.excel.ReadExcelDataProvider@48aca48b]" started-at="2023-12-10T15:00:32 IST" name="logintest" data-provider="excelData" finished-at="2023-12-10T15:00:33 IST" duration-ms="931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abinaya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abinaya123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="burnDown()[pri:0, instance:com.dataprovider.excel.ReadExcelDataProvider@48aca48b]" started-at="2023-12-10T15:00:33 IST" name="burnDown" finished-at="2023-12-10T15:00:33 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- burnDown -->
+      </class> <!-- com.dataprovider.excel.ReadExcelDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
